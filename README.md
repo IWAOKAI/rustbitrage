@@ -17,9 +17,14 @@ DEX arbitrage on EVM chains.
 ## Architecture
 
 ```
-[mempool listener] → [price aggregator] → [opportunity detector]
-                                                    ↓
-                                          [tx builder & submitter]
+┌──────────────────┐    ┌──────────────────┐    ┌──────────────────────┐
+│ Mempool Listener │ ──>│ Price Aggregator │ ──>│ Opportunity Detector │
+└──────────────────┘    └──────────────────┘    └──────────┬───────────┘
+                                                            │
+                                                            ▼
+                                              ┌──────────────────────────┐
+                                              │  Tx Builder & Submitter  │
+                                              └──────────────────────────┘
 ```
 ## Tech Stack
 
