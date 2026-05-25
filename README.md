@@ -54,8 +54,11 @@ cargo run --release
 ## Configuration
 
 Configure `.env` with your RPC endpoints:
+
+```
 RPC_URL=https://...
 PRIVATE_KEY=...
+```
 ## Disclaimer
 
 This is a **reference implementation** for educational purposes. 
@@ -68,6 +71,7 @@ Production strategy logic and proprietary alpha are not included.
 - Email: rinasamuraix@gmail.com
 
 For consulting or custom DeFi bot development inquiries, please reach out.
+
 ---
 
 ## 日本語
@@ -75,4 +79,5 @@ For consulting or custom DeFi bot development inquiries, please reach out.
 EVMチェーン向けの低遅延アービトラージボットフレームワーク（Rust製）。
 
 メンプール監視、価格集約、機会検出、トランザクション送信までを一気通貫で扱う設計です。
+
 ご相談は rinasamuraix@gmail.com まで。
