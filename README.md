@@ -28,6 +28,14 @@ DEX arbitrage on EVM chains.
 
 Performance varies based on RPC provider and network conditions. 
 Designed for sub-100ms end-to-end latency on premium endpoints.
+
+## Why Rust?
+
+Arbitrage requires:
+- **Predictable latency** — no GC pauses
+- **Zero-cost abstractions** — high-level code, low-level performance
+- **Memory safety** — critical when handling private keys
+- **Concurrency** — Tokio's async runtime for I/O-bound workloads
 ## Usage
 
 ```bash
@@ -52,3 +60,10 @@ Production strategy logic and proprietary alpha are not included.
 - Email: rinasamuraix@gmail.com
 
 For consulting or custom DeFi bot development inquiries, please reach out.
+---
+
+## 日本語
+
+EVMチェーン向けの低遅延アービトラージボットフレームワーク（Rust製）。
+
+メンプール監視、価格集約、機会検出、トランザクション送信までを一気通貫で扱う設計です。ご相談は rinasamuraix@gmail.com まで。
