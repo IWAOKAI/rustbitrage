@@ -1,6 +1,7 @@
 ![Rust](https://img.shields.io/badge/rust-1.75+-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-reference-yellow.svg)# Rustbitrage ⚡
+![Status](https://img.shields.io/badge/status-reference-yellow.svg)
+# Rustbitrage ⚡
 
 Ultra-fast arbitrage bot framework written in Rust, designed for low-latency 
 DEX arbitrage on EVM chains.
