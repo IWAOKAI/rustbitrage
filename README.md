@@ -57,7 +57,7 @@ Production strategy logic and proprietary alpha are not included.
 
 **Iwao Kai** — Rust / Move Smart Contract Engineer
 - LinkedIn: [linkedin.com/in/iwaokai](https://www.linkedin.com/in/iwaokai)
-- Email: iwaokaiwo@gmail.com
+- Email: rinasamuraix@gmail.com
 
 For consulting or custom DeFi bot development inquiries, please reach out.
 ---
@@ -67,4 +67,4 @@ For consulting or custom DeFi bot development inquiries, please reach out.
 EVMチェーン向けの低遅延アービトラージボットフレームワーク（Rust製）。
 
 メンプール監視、価格集約、機会検出、トランザクション送信までを一気通貫で扱う設計です。
-ご相談は iwaokaiwo@gmail.com まで。
+ご相談は rinasamuraix@gmail.com まで。
