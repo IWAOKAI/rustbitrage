@@ -1,5 +1,7 @@
 # Rustbitrage ⚡
-
+![Rust](https://img.shields.io/badge/rust-1.75+-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-reference-yellow.svg)
 Ultra-fast arbitrage bot framework written in Rust, designed for low-latency 
 DEX arbitrage on EVM chains.
 
@@ -23,10 +25,8 @@ DEX arbitrage on EVM chains.
 
 ## Performance
 
-- Average detection latency: <X>ms
-- Average submission latency: <Y>ms
-- Tested on: <chain names>
-
+Performance varies based on RPC provider and network conditions. 
+Designed for sub-100ms end-to-end latency on premium endpoints.
 ## Usage
 
 ```bash
