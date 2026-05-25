@@ -15,9 +15,12 @@ DEX arbitrage on EVM chains.
 - **Real-time analytics** with P&L tracking
 
 ## Architecture
+
+'''
 [mempool listener] → [price aggregator] → [opportunity detector]
-↓
-[tx builder & submitter]
+                                                    ↓
+                                          [tx builder & submitter]
+'''
 ## Tech Stack
 
 - **Language:** Rust (async/await with Tokio)
