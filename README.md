@@ -16,11 +16,11 @@ DEX arbitrage on EVM chains.
 
 ## Architecture
 
-,,,
+...
 [mempool listener] → [price aggregator] → [opportunity detector]
                                                     ↓
                                           [tx builder & submitter]
-,,,
+...
 ## Tech Stack
 
 - **Language:** Rust (async/await with Tokio)
